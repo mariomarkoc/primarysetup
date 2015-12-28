@@ -1,0 +1,47 @@
+﻿<Window x:Class="PrimarySetup.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Klargjøring av maskin" Height="350" Width="525" Opacity="0.8" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="MainOptions">
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/ltlbakgrunn.jpg"/>
+        </Grid.Background>
+        <Image x:Name="imageLogo" HorizontalAlignment="Left" Height="100" Margin="67,10,0,0" VerticalAlignment="Top" Width="378"/>
+        <Button x:Name="btnHomePage" Content="Set homepage" HorizontalAlignment="Left" Margin="183,75,0,0" VerticalAlignment="Top" Width="141" Height="39" Click="btnHomePage_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnSetSearchEngine" Content="Set SearchEngine" HorizontalAlignment="Left" Margin="183,119,0,0" VerticalAlignment="Top" Width="141" Height="37" Click="btnSetSearchEngine_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnCopyFiles" Content="Copy Files" HorizontalAlignment="Left" Margin="183,161,0,0" VerticalAlignment="Top" Width="141" Height="39" Click="btnCopyFiles_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="100" Margin="118,-72,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btnInstallJava" Content="Install Java" HorizontalAlignment="Left" Margin="183,205,0,0" VerticalAlignment="Top" Width="141" Height="41" Click="btnInstallJava_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnSetBackground" Content="Set Background" HorizontalAlignment="Left" Margin="183,33,0,0" VerticalAlignment="Top" Width="141" Height="39" Click="btnSetBackground_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnCreateShortCut" Content="Create IE Shortcut" HorizontalAlignment="Left" Margin="338,33,0,0" VerticalAlignment="Top" Width="123" Height="39" Click="btnCreateShortCut_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnInstallAdobe" Content="Install Adobe Reader" HorizontalAlignment="Left" Margin="338,77,0,0" VerticalAlignment="Top" Width="123" Height="37" Click="btnInstallAdobe_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+    </Grid>
+</Window>
